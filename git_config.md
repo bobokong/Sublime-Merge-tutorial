@@ -16,13 +16,15 @@ git push -u origin main
 ```
 
 # 若出现以下错误
-> git push -u origin mian
-Permission denied (publickey).
-fatal: Could not read from remote repository.
+> `git push -u origin mian`
+`Permission denied (publickey).`
+`fatal: Could not read from remote repository.`
+`Please make sure you have the correct access rights`
+`and the repository exists.`
+可参考以下解决方案
+<https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey>
 
-Please make sure you have the correct access rights
-and the repository exists.
-
+# Git初始化配置参考如下
 <https://github.com/kongdd/ubuntu-config/blob/master/1_Git.md>
 
 ```bash
