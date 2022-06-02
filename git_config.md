@@ -17,9 +17,7 @@
 
    <!--执行下面命令后会在~/.ssh/目录下生成id_rsa(私钥)和id_rsa.pub(公钥)-->
 
-   ```
-   ssh-keygen -t rsa -C "user email" -f ~/.ssh/id_rsa
-   ```
+   `ssh-keygen -t rsa -C "user email" -f ~/.ssh/id_rsa`
 
 4. 添加私钥
 
@@ -34,7 +32,7 @@
 ## 测试
 
 `ssh -T git@github.com`
-
+如果成功：`You've successfully authenticated, but GitHub does not provide shell access.`
 ## git clone
 
 **注意：**git clone时要使用SSH地址，如`git clone git@github.com:bobot39/test1.git`
