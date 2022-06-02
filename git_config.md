@@ -5,6 +5,41 @@
 替换为：`git push -u origin main -f`
 在github上新创建一个repository时提示：create a new repository on the command line
 
+## 本地配置步骤：
+
+1. `git config --global user.name "git username"`
+
+2. `git config --global user.email "user email"`
+
+   查看配置：`git config --list`
+
+3. 生成SSH-KEY
+
+   <!--执行下面命令后会在~/.ssh/目录下生成id_rsa(私钥)和id_rsa.pub(公钥)-->
+
+   ```
+   ssh-keygen -t rsa -C "user email" -f ~/.ssh/id_rsa
+   ```
+
+4. 添加私钥
+
+   `ssh-add ~/.ssh/id_rsa`
+
+   如果执行ssh-add时提示“Could not open a connection to your authentication agent”，可以先执行命令ssh-agent bash，然后再执行以上代码
+
+## github端配置：
+
+登录github账户 -> settings -> SSH and GPG keys -> new SSH key -> 复制id_rsa.pub里的内容填入
+
+## 测试
+
+`ssh -T git@github.com`
+
+## git clone
+
+**注意：**git clone时要使用SSH地址，如`git clone git@github.com:bobot39/test1.git`
+若是使用的http地址将会无法使用push命令
+
 ```bash
 echo "# Sublime-Merge-tutorial" >> README.md
 git init
@@ -16,6 +51,7 @@ git push -u origin main
 ```
 
 # 若出现以下错误
+
 > `git push -u origin mian Permission denied (publickey).fatal: Could not read from remote repository.Please make sure you have the correct access rights and the repository exists.`
 
 可参考以下解决方案
