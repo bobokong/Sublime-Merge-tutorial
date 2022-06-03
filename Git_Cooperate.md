@@ -19,10 +19,9 @@
    `git push --set-upstream origin collaporation`
 
 **6. 在分支内修改并将分支与主分支合并**
-```
-    vi led.c  
-    git add led.c  
-    git commit -m "add led.c"  
-    git push  
-    git checkout main
-    git merge collaporation```
+```vi led.c  
+git add led.c  
+git commit -m "add led.c"  
+git push  
+git checkout main
+git merge collaporation```
