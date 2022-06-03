@@ -2,7 +2,7 @@
 
 **1. 发出邀请**
 
-   github.com/username -> username/repository -> Setting -> Collaporators ->  Add people
+   >github.com/username -> username/repository -> Setting -> Collaporators ->  Add people
 
 **2. 被邀请人接受邀请**
 
@@ -19,10 +19,10 @@
    `git push --set-upstream origin collaporation`
 
 **6. 在分支内修改并将分支与主分支合并**
-    ```
-    vi led.c
-    git add led.c
-    git commit -m "add led.c"
-    git push
+```
+    vi led.c  
+    git add led.c  
+    git commit -m "add led.c"  
+    git push  
     git checkout main
     git merge collaporation```
