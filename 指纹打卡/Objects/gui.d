@@ -1,7 +1,7 @@
 .\objects\gui.o: HARDWARE\1.44TFT\GUI.c
 .\objects\gui.o: .\USER\stm32f10x.h
 .\objects\gui.o: .\CORE\core_cm3.h
-.\objects\gui.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gui.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gui.o: .\USER\system_stm32f10x.h
 .\objects\gui.o: .\USER\stm32f10x_conf.h
 .\objects\gui.o: .\STM32F10x_FWLib\inc\stm32f10x_adc.h

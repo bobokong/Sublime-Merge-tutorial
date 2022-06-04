@@ -1,10 +1,10 @@
 .\objects\as608.o: HARDWARE\AS608\as608.c
-.\objects\as608.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\as608.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\as608.o: .\SYSTEM\delay\delay.h
 .\objects\as608.o: .\SYSTEM\sys\sys.h
 .\objects\as608.o: .\USER\stm32f10x.h
 .\objects\as608.o: .\CORE\core_cm3.h
-.\objects\as608.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\as608.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\as608.o: .\USER\system_stm32f10x.h
 .\objects\as608.o: .\USER\stm32f10x_conf.h
 .\objects\as608.o: .\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -31,7 +31,7 @@
 .\objects\as608.o: .\STM32F10x_FWLib\inc\misc.h
 .\objects\as608.o: .\HARDWARE\UART_TFT\uart_tft_bsp.h
 .\objects\as608.o: HARDWARE\AS608\as608.h
-.\objects\as608.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\as608.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\as608.o: .\HARDWARE\MALLOC\malloc.h
 .\objects\as608.o: .\HARDWARE\GPIO\gpio.h
-.\objects\as608.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\as608.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

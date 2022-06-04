@@ -1,12 +1,12 @@
 .\objects\uart_tft_bsp.o: HARDWARE\UART_TFT\uart_tft_bsp.c
-.\objects\uart_tft_bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\uart_tft_bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\uart_tft_bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\uart_tft_bsp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\uart_tft_bsp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uart_tft_bsp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\uart_tft_bsp.o: HARDWARE\UART_TFT\uart_tft_bsp.h
 .\objects\uart_tft_bsp.o: .\SYSTEM\sys\sys.h
 .\objects\uart_tft_bsp.o: .\USER\stm32f10x.h
 .\objects\uart_tft_bsp.o: .\CORE\core_cm3.h
-.\objects\uart_tft_bsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart_tft_bsp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\uart_tft_bsp.o: .\USER\system_stm32f10x.h
 .\objects\uart_tft_bsp.o: .\USER\stm32f10x_conf.h
 .\objects\uart_tft_bsp.o: .\STM32F10x_FWLib\inc\stm32f10x_adc.h

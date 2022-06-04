@@ -36,6 +36,15 @@ Release
 *.obj
 *.ko
 *.elf
+*.dsw
+*.dsp
+*.int
+*.lst
+*.crf
+*.d
+*.crf
+*.dep
+*.sct
 
 # Precompiled Headers
 *.gch

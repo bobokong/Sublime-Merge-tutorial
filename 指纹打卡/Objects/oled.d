@@ -3,7 +3,7 @@
 .\objects\oled.o: .\SYSTEM\sys\sys.h
 .\objects\oled.o: .\USER\stm32f10x.h
 .\objects\oled.o: .\CORE\core_cm3.h
-.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\oled.o: .\USER\system_stm32f10x.h
 .\objects\oled.o: .\USER\stm32f10x_conf.h
 .\objects\oled.o: .\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -28,6 +28,6 @@
 .\objects\oled.o: .\STM32F10x_FWLib\inc\stm32f10x_tim.h
 .\objects\oled.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\objects\oled.o: .\STM32F10x_FWLib\inc\misc.h
-.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\oled.o: HARDWARE\OLED\oledfont.h
 .\objects\oled.o: .\SYSTEM\delay\delay.h

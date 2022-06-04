@@ -3,7 +3,7 @@
 .\objects\gpio.o: .\SYSTEM\sys\sys.h
 .\objects\gpio.o: .\USER\stm32f10x.h
 .\objects\gpio.o: .\CORE\core_cm3.h
-.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gpio.o: .\USER\system_stm32f10x.h
 .\objects\gpio.o: .\USER\stm32f10x_conf.h
 .\objects\gpio.o: .\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -29,8 +29,8 @@
 .\objects\gpio.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\objects\gpio.o: .\STM32F10x_FWLib\inc\misc.h
 .\objects\gpio.o: .\HARDWARE\ADC\adc.h
-.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\gpio.o: .\HARDWARE\UART_TFT\uart_tft_bsp.h
-.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
