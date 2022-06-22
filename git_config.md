@@ -33,10 +33,8 @@
 
 `ssh -T git@github.com`
 如果成功：`You've successfully authenticated, but GitHub does not provide shell access.`
-## git clone
 
-**注意：**git clone时要使用SSH地址，如`git clone git@github.com:bobot39/test1.git`
-若是使用的http地址将会无法使用push命令
+git clone：`git clone git@github.com:bobot39/test1.git`
 
 ```bash
 echo "# Sublime-Merge-tutorial" >> README.md
@@ -47,6 +45,18 @@ git branch -M main
 git remote add origin git@github.com:bobokong/Sublime-Merge-tutorial.git
 git push -u origin main
 ```
+
+    
+## 注意
+- Ubuntu配置：在Ubuntu环境下完成上述配置，之后便可在Ubuntu环境下完成Git操作
+
+- Windows配置：在Windows环境下git bash终端配完成上述配置
+
+- 只有在两个环境下配置（两个公钥），才能在两个环境下正常使用git
+
+- 若要在 VS Code 中完成git相关操作，需要安装git
+
+- git clone时要使用SSH地址，如`git clone git@github.com:bobot39/test1.git`，若是使用的http地址将会无法使用push命令
 
 # 若出现以下错误
 
