@@ -39,6 +39,10 @@
 
 `git checkout branchname` 切换分支到branchname
 
+`git push --set-upstream branchname` 在远程建立分支
+
+`git push origin --delete brancnname` 删除远程分支
+
 `git checkout master` 、`git merge branchname` 将分支更改合并到主分支
 
 `git branch -d branchname` 删除分支
