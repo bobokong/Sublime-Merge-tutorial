@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "AT.H": "cpp"
+    },
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
